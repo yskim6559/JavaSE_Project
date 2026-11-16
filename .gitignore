@@ -1,10 +1,17 @@
-# 컴파일 결과물
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+logs/
+.settings/
 bin/
-out/
 
-# IntelliJ
-.idea/
-*.iml
-
-# Mac
-.DS_Store
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
