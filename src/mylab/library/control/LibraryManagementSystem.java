@@ -13,7 +13,7 @@ public class LibraryManagementSystem {
 //        System.out.println(library.getTotalBooks());
 //        System.out.println(library.getAvailableBooksCount());
 //        System.out.println(library.getBorrowedBooksCount());
-
+        printStatus(library);
         testFindBook(library);
         testCheckOut(library);
         testReturn(library);
